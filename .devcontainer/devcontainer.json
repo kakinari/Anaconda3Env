@@ -1,4 +1,17 @@
 {
   "name": "Anaconda3Env",
-  "image": "kakinari/ubi-micro-ja:10-cs-anaconda-3"
+  "image": "kakinari/ubi-micro-ja:10-cs-anaconda-3",
+  "remoteEnv": {
+    "PATH": "/opt/conda/bin:${containerEnv:PATH}"
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-python.python",
+        "ms-python.vscode-pylance",
+        "ms-toolsai.jupyter"
+      ]
+    }
+  },
+  "postCreateCommand": "bash -lc 'python --version; conda --version || true'"
 }

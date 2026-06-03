@@ -1,0 +1,4 @@
+{
+  "name": "Anaconda3Env",
+  "image": "kakinari/ubi-micro-ja:10-cs-anaconda-3"
+}

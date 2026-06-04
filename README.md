@@ -1,4 +1,4 @@
-∏# Anaconda3Env
+# Anaconda3Env
 
 このリポジトリはAnaconda 3を使用したPython開発を行えるように作成したCodeSpaceのイメージを動作させるためのテスト用リポジトリです。
 

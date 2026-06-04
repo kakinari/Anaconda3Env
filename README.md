@@ -2,6 +2,16 @@
 
 このリポジトリはAnaconda 3を使用したPython開発を行えるように作成したCodeSpaceのイメージを動作させるためのテスト用リポジトリです。
 
+デフォルトのインストールとして以下のパッケージがインストールされています。
+
+- Anaconda3 (Python 3.13.9)
+- opencv_python
+- PyToach
+
+詳細は
+`conda list`
+で確認ください。
+
 ## Codespaces 設定
 
 このリポジトリは [.devcontainer/devcontainer.json](.devcontainer/devcontainer.json) で
